@@ -1,0 +1,101 @@
+div.up_top, div.up_normal{
+	display: inline !important;
+    margin: 0 auto;
+    padding: 5px;
+	padding-bottom: 0;
+	width: 215px;
+	float: left;
+	height: 195px;
+	max-height: 195px;
+	background: #2d76C6;
+	background:-webkit-gradient(linear,left bottom,left top,from(#2d76C6),to(#3F8FdF));
+	background:-moz-linear-gradient(bottom,#2d76C6,#3F8FdF);
+	background:-o-linear-gradient(bottom,#2d76C6,#3F8FdF);	
+	margin-left: 5px !important;
+	margin-bottom: 5px !important;
+    word-break:break-all;
+}
+div.up_top_info, div.up_normal_info{
+	display: inline !important;
+}
+td.up_top_titile, td.up_normal_titile{
+    color: #444;
+    padding: 2px 10px;
+	padding-bottom: 0px;
+    width: 325px;
+    font-weight: bold;
+}
+td.up_top_titile a, td.up_normal_titile a{
+    color: #FFF !important;
+    font-weight: bold;
+} 
+td.up_top_titile a span:hover, td.up_normal_titile a span:hover{
+    color: #FFE840 !important;
+}
+td.up_top_titile a:visited, td.up_normal_titile a:visited{
+    color: #FFF !important;
+}
+td.up_top_titile{
+    font-size: 18px;
+}
+td.up_top_stat, td.up_normal_stat{
+    width: 225px;	
+    padding: 2px 10px;
+    text-align: left;
+    font-weight: bold;
+	color: #eef;
+    font-size: 13px;
+}
+div.up_normal{
+    /* background-color: #DFEFFF; */
+}
+td.up_normal_titile{
+    font-size: 13px;
+}
+td.up_posts{
+    padding: 0 10px;
+	font-size: 13px;
+	line-height: 16px;
+}
+td.up_posts a{
+	color: #fff;
+	font-weight: bold !important;
+}
+td.up_posts li{
+	margin-bottom: 2px;
+    list-style-type: square;
+    color: #eef;
+    list-style-position: inside;
+}
+span.up_trend{
+	display: none;
+    position: absolute;
+    font-size: 18px;
+    margin-left: -20px !important;
+    font-weight: bold;
+}
+.trend_icon{
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	margin-left: 181px;
+        margin-top: 161px;
+}
+
+#ac_search_body{
+    width:90%; height: 50px
+}
+#ac_search_submit{
+    border: none; 
+    margin-top: 20px;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    width: 70%;
+    margin-left: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #fff; 
+}
+#sidebar_search_result{
+    padding-top: 5px;
+}

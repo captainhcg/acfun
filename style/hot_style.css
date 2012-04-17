@@ -1,0 +1,54 @@
+/* CSS Document */
+div.cate_section {
+	font-family: "Microsoft Yahei",Arial,sans-serif;
+	float: left;
+	width: 310px;
+	margin-left: 0;
+	margin-right: 5px !important;
+	margin-top: 0 !important;
+	margin-bottom: 5px !important;
+	padding: 10px 5px 15px;
+	display: inline !important;
+	font-size: 13px;
+	background-color: #04819E;
+	background:-webkit-gradient(linear,left bottom,left top,from(#04819E),to(#0491AE));
+	background:-moz-linear-gradient(bottom,#04819E,#0491AE);
+	background:-o-linear-gradient(bottom,#04819E,#0491AE);			
+}
+div.cate_section table{
+	width: 290px;
+	margin: auto;
+}
+th.cate_section_title {
+	padding: 2px 0 8px 40px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+}
+th.cate_section_title a, th.cate_section_title a:visited {
+	font-family: "Microsoft Yahei",Arial,sans-serif;
+	color: #FFF !important;
+}
+.art_title a:visited{
+	color: #AAA !important;
+}
+td.art_title, td.art_count {
+	padding: 1px 5px;
+}
+td.art_title a{
+	font-weight: bold;
+	font-size: 13px;
+}
+td.art_count {
+	color: #fff;
+	text-align: right;
+	width: 40px;
+	font-size: 13px;
+}
+.cate_section_icon{
+	margin-left: 10px;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+}

@@ -1,0 +1,21 @@
+body{
+    width: 90% !important;
+    min-width: 980px;
+}
+#side_bar{
+    padding-top: 30px !important;
+}
+ul.nav_ul{
+    list-style: none;
+    position: relative;
+    margin-top: 5px;
+}
+li.nav_li{
+    font-weight: bold;
+    float: left;
+    width: 80px;
+    color: #999;
+}
+li.nav_li_selected{
+    border-bottom: 2px solid #999;
+}
